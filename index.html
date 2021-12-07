@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta-charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Passinho do Romano</title>
+</head>
+<body>
+ <header>
+
+    <h1>Passinho do Romano</h1>
+
+    </header>
+<br>
+<br>
+    <div class="container">
+      <form action="">
+          <p>Escreva uma mensagem:</p>
+        <input type="text" name="" id="text">
+
+
+        <div>
+            <p>Escolha o tipo de código:</p>
+          <select name="" id="choose">
+            <option value="option">Selecione AQUI</option>
+            <option value="Cesar">Cifra de Cesar</option>
+            <option value="Base64">Base64</option>
+          </select>
+        </div>
+        <br>
+        <div id="selectNumber">
+          <p>Selecione um número:</p>
+          <input type="number" min="1" max="25" id="imputNumber">
+        </div>
+        <div>
+          <input type="radio" name="buttonCodificar" value="codificar"id="codificar">
+          <label for="codifica">Codificar</label>
+          <br>
+          <input type="radio"  name="buttonDecodificar" value="decodificar"id="decodificar">
+          <label for="decodifica">Decodificar</label>
+        </div>
+        <br>
+        <button type="submit" value="submit" id="submit">Enviar texto!</button>
+        <div id = "inserirCripto"></div>
+      </form>
+      <br>
+      <br>
+    </div>
+    
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
+
+    
+
