@@ -13,6 +13,7 @@ var choose = document.getElementById("choose");
 var selectNumber = document.getElementById('selectNumber');
 
 
+// Mudanças no button após o clique.
 
 buttonCodificar.addEventListener("click", function () {
   button.innerText = "Codificar mensagem";
@@ -29,7 +30,9 @@ choose.addEventListener('change', function(){
       selectNumber.style.display = 'none'
     }
   } )
-  
+
+  //Codificando Cifra de Cesar
+
   button.addEventListener("click", function (e) {
     e.preventDefault();
     var imputNumber = document.getElementById('imputNumber').value;
@@ -75,5 +78,6 @@ choose.addEventListener('change', function(){
     }
 {
 }
+//Mensagem codificada será exibida:
 inserirCripto.innerHTML = `<p>${mensagemCodificada}</p>`;
 })
